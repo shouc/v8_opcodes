@@ -16,8 +16,8 @@ This repo contains V8 opcodes and their information for NodeJS 6.0.0 - 17.4.0 (l
 ```
 
 ## References
-| NodeJS Version | V8 Version | Date |
-| -------------- | ---------- | ---- |
+| NodeJS Version | V8 Version | Date |  Info JSON |
+| -------------- | ---------- | ---- | ----- |
 | Node.js 17.4.0 | 9.6.180.15 | 2022-01-18 | [v17.4.0_opcode.json](/blob/master/opcodes/v17.4.0_opcode.json) |
 | Node.js 17.3.1 | 9.6.180.15 | 2022-01-10 | [v17.3.1_opcode.json](/blob/master/opcodes/v17.3.1_opcode.json) |
 | Node.js 17.3.0 | 9.6.180.15 | 2021-12-17 | [v17.3.0_opcode.json](/blob/master/opcodes/v17.3.0_opcode.json) |
