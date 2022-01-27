@@ -1,0 +1,946 @@
+{
+    "LdaZero": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 0,
+        "opcode_hex": "0x0"
+    },
+    "LdaSmi8": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 1,
+        "opcode_hex": "0x1"
+    },
+    "LdaUndefined": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 2,
+        "opcode_hex": "0x2"
+    },
+    "LdaNull": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 3,
+        "opcode_hex": "0x3"
+    },
+    "LdaTheHole": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 4,
+        "opcode_hex": "0x4"
+    },
+    "LdaTrue": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 5,
+        "opcode_hex": "0x5"
+    },
+    "LdaFalse": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 6,
+        "opcode_hex": "0x6"
+    },
+    "LdaConstant": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 7,
+        "opcode_hex": "0x7"
+    },
+    "LdaConstantWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 8,
+        "opcode_hex": "0x8"
+    },
+    "LdaGlobal": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx8"
+        ],
+        "opcode": 9,
+        "opcode_hex": "0x9"
+    },
+    "LdaGlobalInsideTypeof": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx8"
+        ],
+        "opcode": 10,
+        "opcode_hex": "0xa"
+    },
+    "LdaGlobalWide": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx16"
+        ],
+        "opcode": 11,
+        "opcode_hex": "0xb"
+    },
+    "LdaGlobalInsideTypeofWide": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx16"
+        ],
+        "opcode": 12,
+        "opcode_hex": "0xc"
+    },
+    "StaGlobalSloppy": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx8"
+        ],
+        "opcode": 13,
+        "opcode_hex": "0xd"
+    },
+    "StaGlobalStrict": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx8"
+        ],
+        "opcode": 14,
+        "opcode_hex": "0xe"
+    },
+    "StaGlobalSloppyWide": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx16"
+        ],
+        "opcode": 15,
+        "opcode_hex": "0xf"
+    },
+    "StaGlobalStrictWide": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx16"
+        ],
+        "opcode": 16,
+        "opcode_hex": "0x10"
+    },
+    "PushContext": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 17,
+        "opcode_hex": "0x11"
+    },
+    "PopContext": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 18,
+        "opcode_hex": "0x12"
+    },
+    "LdaContextSlot": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx8"
+        ],
+        "opcode": 19,
+        "opcode_hex": "0x13"
+    },
+    "StaContextSlot": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx8"
+        ],
+        "opcode": 20,
+        "opcode_hex": "0x14"
+    },
+    "LdaContextSlotWide": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx16"
+        ],
+        "opcode": 21,
+        "opcode_hex": "0x15"
+    },
+    "StaContextSlotWide": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx16"
+        ],
+        "opcode": 22,
+        "opcode_hex": "0x16"
+    },
+    "LdaLookupSlot": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 23,
+        "opcode_hex": "0x17"
+    },
+    "LdaLookupSlotInsideTypeof": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 24,
+        "opcode_hex": "0x18"
+    },
+    "LdaLookupSlotWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 25,
+        "opcode_hex": "0x19"
+    },
+    "LdaLookupSlotInsideTypeofWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 26,
+        "opcode_hex": "0x1a"
+    },
+    "StaLookupSlotSloppy": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 27,
+        "opcode_hex": "0x1b"
+    },
+    "StaLookupSlotStrict": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 28,
+        "opcode_hex": "0x1c"
+    },
+    "StaLookupSlotSloppyWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 29,
+        "opcode_hex": "0x1d"
+    },
+    "StaLookupSlotStrictWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 30,
+        "opcode_hex": "0x1e"
+    },
+    "Ldar": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 31,
+        "opcode_hex": "0x1f"
+    },
+    "Star": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 32,
+        "opcode_hex": "0x20"
+    },
+    "Mov": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kRegOut8"
+        ],
+        "opcode": 33,
+        "opcode_hex": "0x21"
+    },
+    "MovWide": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kRegOut16"
+        ],
+        "opcode": 34,
+        "opcode_hex": "0x22"
+    },
+    "LoadIC": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx8",
+            "OperandType::kIdx8"
+        ],
+        "opcode": 35,
+        "opcode_hex": "0x23"
+    },
+    "KeyedLoadIC": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx8"
+        ],
+        "opcode": 36,
+        "opcode_hex": "0x24"
+    },
+    "LoadICWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx16",
+            "OperandType::kIdx16"
+        ],
+        "opcode": 37,
+        "opcode_hex": "0x25"
+    },
+    "KeyedLoadICWide": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kIdx16"
+        ],
+        "opcode": 38,
+        "opcode_hex": "0x26"
+    },
+    "StoreICSloppy": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx8",
+            "OperandType::kIdx8"
+        ],
+        "opcode": 39,
+        "opcode_hex": "0x27"
+    },
+    "StoreICStrict": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx8",
+            "OperandType::kIdx8"
+        ],
+        "opcode": 40,
+        "opcode_hex": "0x28"
+    },
+    "KeyedStoreICSloppy": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kReg8",
+            "OperandType::kIdx8"
+        ],
+        "opcode": 41,
+        "opcode_hex": "0x29"
+    },
+    "KeyedStoreICStrict": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kReg8",
+            "OperandType::kIdx8"
+        ],
+        "opcode": 42,
+        "opcode_hex": "0x2a"
+    },
+    "StoreICSloppyWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx16",
+            "OperandType::kIdx16"
+        ],
+        "opcode": 43,
+        "opcode_hex": "0x2b"
+    },
+    "StoreICStrictWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx16",
+            "OperandType::kIdx16"
+        ],
+        "opcode": 44,
+        "opcode_hex": "0x2c"
+    },
+    "KeyedStoreICSloppyWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kReg8",
+            "OperandType::kIdx16"
+        ],
+        "opcode": 45,
+        "opcode_hex": "0x2d"
+    },
+    "KeyedStoreICStrictWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kReg8",
+            "OperandType::kIdx16"
+        ],
+        "opcode": 46,
+        "opcode_hex": "0x2e"
+    },
+    "Add": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 47,
+        "opcode_hex": "0x2f"
+    },
+    "Sub": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 48,
+        "opcode_hex": "0x30"
+    },
+    "Mul": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 49,
+        "opcode_hex": "0x31"
+    },
+    "Div": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 50,
+        "opcode_hex": "0x32"
+    },
+    "Mod": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 51,
+        "opcode_hex": "0x33"
+    },
+    "BitwiseOr": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 52,
+        "opcode_hex": "0x34"
+    },
+    "BitwiseXor": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 53,
+        "opcode_hex": "0x35"
+    },
+    "BitwiseAnd": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 54,
+        "opcode_hex": "0x36"
+    },
+    "ShiftLeft": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 55,
+        "opcode_hex": "0x37"
+    },
+    "ShiftRight": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 56,
+        "opcode_hex": "0x38"
+    },
+    "ShiftRightLogical": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 57,
+        "opcode_hex": "0x39"
+    },
+    "Inc": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 58,
+        "opcode_hex": "0x3a"
+    },
+    "Dec": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 59,
+        "opcode_hex": "0x3b"
+    },
+    "LogicalNot": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 60,
+        "opcode_hex": "0x3c"
+    },
+    "TypeOf": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 61,
+        "opcode_hex": "0x3d"
+    },
+    "DeletePropertyStrict": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 62,
+        "opcode_hex": "0x3e"
+    },
+    "DeletePropertySloppy": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 63,
+        "opcode_hex": "0x3f"
+    },
+    "Call": {
+        "args_count": 3,
+        "args": [
+            "OperandType::kReg8",
+            "OperandType::kRegCount8",
+            "OperandType::kIdx8"
+        ],
+        "opcode": 64,
+        "opcode_hex": "0x40"
+    },
+    "CallWide": {
+        "args_count": 3,
+        "args": [
+            "OperandType::kReg16",
+            "OperandType::kRegCount16",
+            "OperandType::kIdx16"
+        ],
+        "opcode": 65,
+        "opcode_hex": "0x41"
+    },
+    "TailCall": {
+        "args_count": 3,
+        "args": [
+            "OperandType::kReg8",
+            "OperandType::kRegCount8",
+            "OperandType::kIdx8"
+        ],
+        "opcode": 66,
+        "opcode_hex": "0x42"
+    },
+    "TailCallWide": {
+        "args_count": 3,
+        "args": [
+            "OperandType::kReg16",
+            "OperandType::kRegCount16",
+            "OperandType::kIdx16"
+        ],
+        "opcode": 67,
+        "opcode_hex": "0x43"
+    },
+    "CallRuntime": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kMaybeReg8",
+            "OperandType::kRegCount8"
+        ],
+        "opcode": 68,
+        "opcode_hex": "0x44"
+    },
+    "CallRuntimeWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kMaybeReg16",
+            "OperandType::kRegCount8"
+        ],
+        "opcode": 69,
+        "opcode_hex": "0x45"
+    },
+    "CallRuntimeForPair": {
+        "args_count": 3,
+        "args": [
+            "OperandType::kMaybeReg8",
+            "OperandType::kRegCount8",
+            "OperandType::kRegOutPair8"
+        ],
+        "opcode": 70,
+        "opcode_hex": "0x46"
+    },
+    "CallRuntimeForPairWide": {
+        "args_count": 3,
+        "args": [
+            "OperandType::kMaybeReg16",
+            "OperandType::kRegCount8",
+            "OperandType::kRegOutPair16"
+        ],
+        "opcode": 71,
+        "opcode_hex": "0x47"
+    },
+    "CallJSRuntime": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kReg8",
+            "OperandType::kRegCount8"
+        ],
+        "opcode": 72,
+        "opcode_hex": "0x48"
+    },
+    "CallJSRuntimeWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kReg16",
+            "OperandType::kRegCount16"
+        ],
+        "opcode": 73,
+        "opcode_hex": "0x49"
+    },
+    "New": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kMaybeReg8",
+            "OperandType::kRegCount8"
+        ],
+        "opcode": 74,
+        "opcode_hex": "0x4a"
+    },
+    "NewWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kMaybeReg16",
+            "OperandType::kRegCount16"
+        ],
+        "opcode": 75,
+        "opcode_hex": "0x4b"
+    },
+    "TestEqual": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 76,
+        "opcode_hex": "0x4c"
+    },
+    "TestNotEqual": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 77,
+        "opcode_hex": "0x4d"
+    },
+    "TestEqualStrict": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 78,
+        "opcode_hex": "0x4e"
+    },
+    "TestNotEqualStrict": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 79,
+        "opcode_hex": "0x4f"
+    },
+    "TestLessThan": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 80,
+        "opcode_hex": "0x50"
+    },
+    "TestGreaterThan": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 81,
+        "opcode_hex": "0x51"
+    },
+    "TestLessThanOrEqual": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 82,
+        "opcode_hex": "0x52"
+    },
+    "TestGreaterThanOrEqual": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 83,
+        "opcode_hex": "0x53"
+    },
+    "TestInstanceOf": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 84,
+        "opcode_hex": "0x54"
+    },
+    "TestIn": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 85,
+        "opcode_hex": "0x55"
+    },
+    "ToName": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 86,
+        "opcode_hex": "0x56"
+    },
+    "ToNumber": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 87,
+        "opcode_hex": "0x57"
+    },
+    "ToObject": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 88,
+        "opcode_hex": "0x58"
+    },
+    "CreateRegExpLiteral": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx8",
+            "OperandType::kImm8"
+        ],
+        "opcode": 89,
+        "opcode_hex": "0x59"
+    },
+    "CreateArrayLiteral": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx8",
+            "OperandType::kImm8"
+        ],
+        "opcode": 90,
+        "opcode_hex": "0x5a"
+    },
+    "CreateObjectLiteral": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx8",
+            "OperandType::kImm8"
+        ],
+        "opcode": 91,
+        "opcode_hex": "0x5b"
+    },
+    "CreateRegExpLiteralWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx16",
+            "OperandType::kImm8"
+        ],
+        "opcode": 92,
+        "opcode_hex": "0x5c"
+    },
+    "CreateArrayLiteralWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx16",
+            "OperandType::kImm8"
+        ],
+        "opcode": 93,
+        "opcode_hex": "0x5d"
+    },
+    "CreateObjectLiteralWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kIdx16",
+            "OperandType::kImm8"
+        ],
+        "opcode": 94,
+        "opcode_hex": "0x5e"
+    },
+    "CreateClosure": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kImm8"
+        ],
+        "opcode": 95,
+        "opcode_hex": "0x5f"
+    },
+    "CreateClosureWide": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kImm8"
+        ],
+        "opcode": 96,
+        "opcode_hex": "0x60"
+    },
+    "CreateMappedArguments": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 97,
+        "opcode_hex": "0x61"
+    },
+    "CreateUnmappedArguments": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 98,
+        "opcode_hex": "0x62"
+    },
+    "CreateRestParameter": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 99,
+        "opcode_hex": "0x63"
+    },
+    "Jump": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 100,
+        "opcode_hex": "0x64"
+    },
+    "JumpConstant": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 101,
+        "opcode_hex": "0x65"
+    },
+    "JumpConstantWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 102,
+        "opcode_hex": "0x66"
+    },
+    "JumpIfTrue": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 103,
+        "opcode_hex": "0x67"
+    },
+    "JumpIfTrueConstant": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 104,
+        "opcode_hex": "0x68"
+    },
+    "JumpIfTrueConstantWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 105,
+        "opcode_hex": "0x69"
+    },
+    "JumpIfFalse": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 106,
+        "opcode_hex": "0x6a"
+    },
+    "JumpIfFalseConstant": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 107,
+        "opcode_hex": "0x6b"
+    },
+    "JumpIfFalseConstantWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 108,
+        "opcode_hex": "0x6c"
+    },
+    "JumpIfToBooleanTrue": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 109,
+        "opcode_hex": "0x6d"
+    },
+    "JumpIfToBooleanTrueConstant": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 110,
+        "opcode_hex": "0x6e"
+    },
+    "JumpIfToBooleanTrueConstantWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 111,
+        "opcode_hex": "0x6f"
+    },
+    "JumpIfToBooleanFalse": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 112,
+        "opcode_hex": "0x70"
+    },
+    "JumpIfToBooleanFalseConstant": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 113,
+        "opcode_hex": "0x71"
+    },
+    "JumpIfToBooleanFalseConstantWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 114,
+        "opcode_hex": "0x72"
+    },
+    "JumpIfNull": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 115,
+        "opcode_hex": "0x73"
+    },
+    "JumpIfNullConstant": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 116,
+        "opcode_hex": "0x74"
+    },
+    "JumpIfNullConstantWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 117,
+        "opcode_hex": "0x75"
+    },
+    "JumpIfUndefined": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 118,
+        "opcode_hex": "0x76"
+    },
+    "JumpIfUndefinedConstant": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 119,
+        "opcode_hex": "0x77"
+    },
+    "JumpIfUndefinedConstantWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 120,
+        "opcode_hex": "0x78"
+    },
+    "JumpIfNotHole": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 121,
+        "opcode_hex": "0x79"
+    },
+    "JumpIfNotHoleConstant": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 122,
+        "opcode_hex": "0x7a"
+    },
+    "JumpIfNotHoleConstantWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 123,
+        "opcode_hex": "0x7b"
+    },
+    "ForInPrepare": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 124,
+        "opcode_hex": "0x7c"
+    },
+    "ForInPrepareWide": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 125,
+        "opcode_hex": "0x7d"
+    },
+    "ForInDone": {
+        "args_count": 1,
+        "args": [
+            "OperandType::kReg8"
+        ],
+        "opcode": 126,
+        "opcode_hex": "0x7e"
+    },
+    "ForInNext": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kReg8",
+            "OperandType::kRegPair8"
+        ],
+        "opcode": 127,
+        "opcode_hex": "0x7f"
+    },
+    "ForInNextWide": {
+        "args_count": 2,
+        "args": [
+            "OperandType::kReg16",
+            "OperandType::kRegPair16"
+        ],
+        "opcode": 128,
+        "opcode_hex": "0x80"
+    },
+    "ForInStep": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 129,
+        "opcode_hex": "0x81"
+    },
+    "StackCheck": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 130,
+        "opcode_hex": "0x82"
+    },
+    "Throw": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 131,
+        "opcode_hex": "0x83"
+    },
+    "ReThrow": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 132,
+        "opcode_hex": "0x84"
+    },
+    "Return": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 133,
+        "opcode_hex": "0x85"
+    },
+    "Debugger": {
+        "args_count": 0,
+        "args": [],
+        "opcode": 134,
+        "opcode_hex": "0x86"
+    }
+}
